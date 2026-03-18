@@ -18,7 +18,7 @@ const QUESTIONS = [
     id: 2,
     categoryId: "surgimento-pre-socraticos",
     categoryName: "Surgimento da Filosofia e Pré-socráticos",
-    question: "“Não se pode entrar duas vezes no mesmo rio, pois novas águas estão sempre correndo.” A ideia expressa nessa afirmação sugere que a realidade é marcada por um processo contínuo de transformação. Essa concepção está associada à filosofia de:",
+    question: "“Não se pode entrar duas vezes no mesmo rio, pois novas águas estão sempre correndo. A ideia expressa nessa afirmação sugere que a realidade é marcada por um processo contínuo de transformação. Essa concepção está associada à filosofia de:",
     options: {
       A: "Heráclito, que afirmava o caráter mutável da realidade.",
       B: "Demócrito, que explicava a realidade por meio dos átomos.",
@@ -436,8 +436,8 @@ const QUESTIONS = [
   },
   {
     id: 30,
-    categoryId: "juntando-filosofia-grega",
-    categoryName: "Juntando a filosofia grega",
+    categoryId: "juntando-filosofia",
+    categoryName: "Tudo junto e misturado na filosofia",
     question: "Ao longo da história da filosofia, diferentes pensadores buscaram compreender a relação entre o conhecimento humano e a realidade. Na Grécia Antiga, Platão e Aristóteles formularam respostas distintas para esse problema, estabelecendo perspectivas que influenciariam profundamente a tradição filosófica ocidental. Para Platão, o conhecimento verdadeiro não pode se basear no mundo sensível, uma vez que este é marcado pela mudança e pela imperfeição. Assim, ele defende a existência de um domínio inteligível, no qual se encontram as Ideias ou Formas, eternas e imutáveis, que constituem a verdadeira realidade. O mundo sensível, por sua vez, é compreendido como uma manifestação imperfeita dessa realidade superior. Aristóteles, discípulo de Platão, propõe uma reformulação dessa concepção. Para ele, não há necessidade de postular um mundo separado das Ideias. As formas não existem fora das coisas, mas estão nelas mesmas. O conhecimento, portanto, inicia-se com a experiência sensível e se desenvolve pela atividade racional, que apreende as características universais presentes nos objetos. Considerando essas concepções, assinale a alternativa que expressa corretamente a diferença entre Platão e Aristóteles no que se refere à relação entre conhecimento e realidade.",
     options: {
       A: "Platão sustenta a existência de um mundo inteligível separado como fundamento da verdade, enquanto Aristóteles entende que as formas estão nas próprias coisas e que o conhecimento começa pela experiência sensível.",
@@ -451,8 +451,8 @@ const QUESTIONS = [
   },
   {
     id: 31,
-    categoryId: "juntando-filosofia-grega",
-    categoryName: "Juntando a filosofia grega",
+    categoryId: "juntando-filosofia",
+    categoryName: "Tudo junto e misturado na filosofia",
     question: "Ao longo da história da filosofia grega, observa-se uma transformação significativa na forma de investigar a realidade e o conhecimento. Os filósofos chamados pré-socráticos buscavam identificar o princípio fundamental (arché) de todas as coisas, enquanto Sócrates desloca o foco para o ser humano e a vida ética. Já Platão e Aristóteles desenvolvem sistemas filosóficos mais complexos, com diferentes respostas para a questão do conhecimento e da realidade. Considere o seguinte diálogo hipotético entre quatro filósofos: Filósofo I: “A realidade fundamental é um princípio único que explica todas as coisas, como a água, o ar ou o fogo.” Filósofo II: “Antes de entender o mundo, precisamos entender o que é a verdade, a justiça e o bem.” Filósofo III: “O mundo que vemos é apenas uma cópia imperfeita de uma realidade superior e imutável.” Filósofo IV: “O conhecimento começa pela experiência sensível, e as essências são apreendidas a partir das coisas concretas.” A sequência correta que associa cada filósofo às correntes ou autores é:",
     options: {
       A: "Pré-socráticos – Sócrates – Platão – Aristóteles",
@@ -466,8 +466,8 @@ const QUESTIONS = [
   },
   {
     id: 32,
-    categoryId: "juntando-filosofia-grega",
-    categoryName: "Juntando a filosofia grega",
+    categoryId: "juntando-filosofia",
+    categoryName: "Tudo junto e misturado na filosofia",
     question: "Leia o texto a seguir: Ao investigar a origem do conhecimento, diferentes pensadores da Grécia Antiga propuseram caminhos distintos. Alguns buscaram identificar um princípio fundamental da natureza, entendendo que a realidade poderia ser explicada a partir de um elemento originário. Outros deslocaram o foco para o próprio ser humano, defendendo que o conhecimento exige reflexão sobre conceitos como justiça e verdade. Em um terceiro momento, surge a tese de que a realidade sensível não esgota o real, sendo apenas uma manifestação imperfeita de uma ordem superior. Em contraposição, há quem sustente que o conhecimento não deve abandonar a experiência, mas partir dela, compreendendo a realidade a partir das próprias coisas. A partir da análise do texto, é correto afirmar que ele apresenta, respectivamente, concepções associadas a:",
     options: {
       A: "a recusa da investigação racional, a centralidade da tradição, a crítica à metafísica e a valorização exclusiva da percepção sensível.",
@@ -598,5 +598,893 @@ const QUESTIONS = [
     },
     correctAnswer: "C",
     explanation: "Essa é uma típica questão de comparação de textos. O Texto I resume a filosofia grega em dois momentos: início, explicação do cosmos; depois, foco no homem e na pólis. O Texto II descreve claramente o espírito das escolas helenísticas: mundo instável, perda da centralidade da pólis, foco no indivíduo e busca de equilíbrio interior. O ponto-chave não é que a filosofia abandona a razão ou a ética, mas que muda o foco da vida pública para a vida individual."
-  }
+  }, 
+  {
+    id: 41,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Leia o texto a seguir:
+“[...] a arte imita a natureza [...] Em geral a arte perfaz certas coisas que a natureza é incapaz de elaborar e a imita. Assim, se as coisas que são conforme a arte são em vistas de algo, evidentemente também o são as coisas conforme a natureza.”
+(ARISTÓTELES, Física II, 194a 20; 199 a13-18. Tradução adaptada de Lucas Angioni. Campinas: IFCH/UNICAMP, 1999, p.47-58.)
+
+Com base no texto e nos conhecimentos sobre mímesis (imitação) em Aristóteles, assinale a alternativa correta.`,
+    options: {
+      A: "O artista deve copiar a natureza, retirando suas imperfeições ao imitá-la com base no modelo que nunca muda.",
+      B: "O procedimento do artista resulta em imitar a natureza de maneira realista, típica do naturalismo grego.",
+      C: "A arte, distinta da natureza, produz imitações desta, mas são criações sem finalidade ou utilidade.",
+      D: "A arte completa a natureza por ser a capacidade humana para criar e produzir o que a natureza não produz.",
+      E: "A arte produz o prazer em vista de um fim, e a natureza gera em vista do que é útil."
+    },
+    correctAnswer: "D",
+    explanation: "Para Aristóteles, a mímesis não é uma simples cópia. A arte não copia passivamente a natureza; ela a completa, realizando aquilo que a natureza não consegue produzir sozinha. A arte também tem finalidade, assim como a própria natureza."
+  },
+  {
+    id: 42,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Se na Ética a Nicômaco Aristóteles visa encaminhar o indivíduo à felicidade, na Política ele tem por finalidade alcançar o bem comum, o bem viver. Por isso, ele compreende que a origem da pólis está na necessidade natural do homem em buscar a felicidade. A comunidade natural mais incipiente é a família, na qual seus membros se unem para facilitar as atividades básicas de sobrevivência. E várias famílias se ligam para formar a aldeia. E as aldeias se juntam para instituir a pólis.
+
+Sobre isso, é correto afirmar que`,
+    options: {
+      A: "o homem não é naturalmente um animal político, mas é, por natureza, um membro da família.",
+      B: "a pólis não é uma noção artificial, mas natural, pois é o lugar do homem desenvolver as suas potencialidades em vista do bem viver.",
+      C: "o ser humano, por ser autossuficiente, pode prescindir da pólis, pois o bem viver depende mais do indivíduo que da sociedade.",
+      D: "a felicidade do homem está nas condições que permitem sua sobrevivência no âmbito da família.",
+      E: "a pólis se constitui independente das famílias e das aldeias, pois é a única comunidade natural a que o homem pertence."
+    },
+    correctAnswer: "B",
+    explanation: "Aristóteles afirma que o homem é um animal político por natureza. A pólis não é artificial, mas o desenvolvimento natural das relações humanas. Família, aldeia e pólis formam uma sequência natural, e é na pólis que o ser humano realiza plenamente suas potencialidades em vista do bem viver."
+  },
+  {
+    id: 43,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Vimos que o homem sem lei é injusto e o respeitador da lei é justo; evidentemente todos os atos legítimos são, em certo sentido, atos justos, porque os atos prescritos pela arte do legislador são legítimos e cada um deles é justo. Ora, nas disposições que tomam sobre todos os assuntos, as leis têm em mira a vantagem comum, quer de todos, quer dos melhores ou daqueles que detêm o poder ou algo desse gênero; de modo que, em certo sentido, chamamos justos aqueles atos que tendem a produzir e a preservar, para a sociedade política, a felicidade e os elementos que a compõem.
+(ARISTÓTELES. A política. São Paulo: Cia. das Letras, 2010 (adaptado).)
+
+De acordo com o texto de Aristóteles, o legislador deve agir conforme a`,
+    options: {
+      A: "moral e a vida privada.",
+      B: "virtude e os interesses públicos.",
+      C: "utilidade e os critérios pragmáticos.",
+      D: "lógica e os princípios metafísicos.",
+      E: "razão e as verdades transcendentes."
+    },
+    correctAnswer: "B",
+    explanation: "Para Aristóteles, a justiça está ligada ao bem comum. A lei não deve servir a interesses privados, mas àquilo que favorece a comunidade política. Por isso, o legislador deve agir com virtude e foco no interesse público."
+  },
+  {
+    id: 44,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Leia atentamente a seguinte passagem:
+“A experiência parece um pouco semelhante à ciência (epistéme) e à arte (tékhne). Com efeito, os homens adquirem ciência e arte por meio da experiência. A experiência, como diz Polo, produz a arte, enquanto a inexperiência produz o puro acaso. A arte se produz quando, de muitas observações da experiência, forma-se um juízo geral e único possível de ser referido a todos os casos semelhantes”
+(Aristóteles, Metafísica, 981a5).
+
+Com base no texto acima, considere as seguintes afirmações:
+
+I. Somente a ciência é conhecimento universal, cujos juízos gerais se aplicam a todos os casos semelhantes.
+II. A tékhne é uma forma de conhecimento universal, pois, com base nas experiências, se forma um juízo geral.
+III. Por ser semelhante à experiência, a tékhne não constitui um conhecimento universal.
+IV. A experiência é pressuposto dos conhecimentos universais (tékhne e epistéme), mas não é ainda um conhecimento universal.
+
+É correto somente o que se afirma em`,
+    options: {
+      A: "I e IV.",
+      B: "II e III.",
+      C: "I e III.",
+      D: "II e IV."
+    },
+    correctAnswer: "D",
+    explanation: "A experiência é a base do conhecimento, mas ainda não é universal. A tékhne já forma um juízo geral a partir das experiências, e por isso tem caráter universal. A epistéme também é universal, mas com maior rigor. Logo, estão corretas II e IV."
+  },
+  {
+    id: 45,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `“Chamo de princípio de demonstração às convicções comuns das quais todos partem para demonstrar: por exemplo, que todas as coisas devem ser afirmadas ou negadas e que é impossível ser e não ser ao mesmo tempo.”
+ARISTÓTELES. Metafísica, 996b27-30.
+
+Em sua Metafísica, Aristóteles apresenta um conjunto de princípios lógico-metafísicos que ordenam a realidade e nosso conhecimento acerca dela. Dentre eles está o princípio de não contradição, o qual`,
+    options: {
+      A: "indica que afirmações contraditórias são lógica e metafisicamente aceitáveis, pois a contradição faz parte da realidade.",
+      B: "estabelece que é possível que as coisas que tenham tais e tais características não as tenham ao mesmo tempo sob as mesmas circunstâncias.",
+      C: "afirma que é impossível que as coisas que tenham tais e tais características não as tenham ao mesmo tempo sob as mesmas circunstâncias.",
+      D: "é normativo, ou moral; portanto, deve ser rejeitado como antimetafísico, ou seja, não caracteriza a realidade."
+    },
+    correctAnswer: "C",
+    explanation: "Esse é o princípio da não contradição: algo não pode ser e não ser ao mesmo tempo, sob o mesmo aspecto e nas mesmas circunstâncias. Esse princípio é uma base fundamental da lógica e da metafísica aristotélicas."
+  },
+  {
+    id: 46,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Leia o texto a seguir sobre a Filosofia e a Consciência Moral.
+Na ética aristotélica, a sabedoria e a prudência, nossas virtudes intelectivas, formam a diferença específica do ser humano, tornando-o uma espécie distinta de todas as outras. Então, no homem, a physis deu um fantástico salto qualitativo quando produziu o intelecto, que é teórico (sabedoria) e, ao mesmo tempo, prático (prudência); através dessas duas energias, o homem busca as razões profundas da existência e administra a vida cotidiana.
+(PEGORARO, Olinto. Ética dos maiores mestres através da história. Petrópolis: Vozes, 2006, p. 49.).
+
+Com relação a esse assunto, analise os itens a seguir:
+
+I. A prudência tem o poder de discernir e ponderar as ações do ser humano.
+II. O intelecto tem a potencialidade de penetrar na essência das coisas.
+III. A prudência dá o norte de toda a prática ética. O papel do homem prudente é o alcance do seu bem possível diante do excesso ou da escassez.
+IV. A prudência ou sabedoria prática induz à decisão do que seja o mal e o bem, do injusto e do justo no âmbito da vida cotidiana.
+
+Estão CORRETOS`,
+    options: {
+      A: "apenas I, II e III.",
+      B: "apenas II e III.",
+      C: "apenas III e IV.",
+      D: "apenas I e III.",
+      E: "I, II, III e IV."
+    },
+    correctAnswer: "E",
+    explanation: "Na ética aristotélica, o intelecto conhece a essência das coisas, enquanto a prudência orienta a ação prática e ajuda a decidir corretamente diante do excesso e da falta. Todas as afirmações descrevem corretamente essas funções. Por isso, todas estão corretas."
+  },
+  {
+    id: 47,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Leia o texto a seguir.
+Alguns julgam que a grandeza de uma cidade depende do número dos seus habitantes, quando o que importa é prestar atenção à capacidade, mais do que ao número de habitantes, visto que uma cidade tem uma obra a realizar. [...] A cidade melhor é, necessariamente, aquela em que existe uma quantidade de população suficiente para viver bem numa comunidade política. [...] resulta evidente, pois, que o limite populacional perfeito é aquele que não excede a quantidade necessária de indivíduos para realizar uma vida autossuficiente comum a todos. Fica, assim, determinada a questão relativa à grandeza da cidade.
+(ARISTÓTELES, Política 1326b6-25 Edição bilíngue. Tradução e notas de Antônio C. Amaral e Carlos C. Gomes. Lisboa: Vega, 1998, p. 495-499.)
+
+Com base no texto e considerando o papel da cidade-estado (pólis) no pensamento ético-político de Aristóteles, assinale a alternativa correta.`,
+    options: {
+      A: "As dimensões da pólis determinam a qualidade de seu governo: quanto mais cidadãos, maior e melhor será a sua participação política.",
+      B: "A pólis não é natural, por isso é importante organizá-la bem em tamanho e quantidade de cidadãos para que a sociedade seja autossuficiente.",
+      C: "O ser humano, por ser autossuficiente, pode prescindir da pólis, pois o bem viver depende mais do indivíduo que da sociedade.",
+      D: "A pólis realiza a própria obra quando possui um número suficiente de cidadãos que possibilite o bem viver.",
+      E: "O ser humano, como animal político, tende a realizar-se na pólis, mesmo que esta possua quantidade excessiva de cidadãos."
+    },
+    correctAnswer: "D",
+    explanation: "Aristóteles não está preocupado com quantidade pela quantidade, mas com a função da pólis. A cidade deve ter um número suficiente de cidadãos para ser autossuficiente e possibilitar o bem viver. O critério é funcional, não simplesmente numérico."
+  },
+  {
+    id: 48,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `“O filósofo natural e o dialético darão definições diferentes para cada uma dessas afecções. Por exemplo, no caso da pergunta ‘O que é a raiva?’, o dialético dirá que se trata de um desejo de vingança, ou algo deste tipo; o filósofo natural dirá que se trata de um aquecimento do sangue ou de fluidos quentes do coração. Um explica segundo a matéria, o outro, segundo a forma e a definição. A definição é o ‘o que é’ da coisa, mas, para existir, esta precisa da matéria.”
+Aristóteles. Sobre a alma, I, 403a 23. Lisboa: Imprensa Nacional-Casa da Moeda, 2010.
+
+Considerando-se o trecho acima, extraído da obra Sobre a Alma, de Aristóteles (384-322 a.C.), assinale a alternativa que nomeia corretamente a doutrina aristotélica em questão.`,
+    options: {
+      A: "Teoria das categorias.",
+      B: "Teoria do ato-potência.",
+      C: "Teoria das causas.",
+      D: "Teoria do eudaimonismo."
+    },
+    correctAnswer: "C",
+    explanation: "O texto distingue explicações pela matéria e pela forma. Isso se relaciona à teoria das causas de Aristóteles, especialmente à causa material e à causa formal. Para compreender algo, é preciso considerar diferentes dimensões explicativas."
+  },
+  {
+    id: 49,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Se, pois, para as coisas que fazemos existe um fim que desejamos por ele mesmo e tudo o mais é desejado no interesse desse fim; evidentemente tal fim será o bem, ou antes, o sumo bem. Mas não terá o conhecimento, porventura, grande influência sobre essa vida? Se assim é, esforcemo-nos por determinar, ainda que em linhas gerais apenas, o que seja ele e de qual das ciências ou faculdades constitui o objeto. Ninguém duvidará de que o seu estudo pertença a arte mais prestigiosa e que mais verdadeiramente se pode chamar a arte mestra. Ora, a política mostra ser dessa natureza, pois é ela que determina quais as ciências que devem ser estudadas num Estado, quais são as que cada cidadão deve aprender, e até que ponto; e vemos que até as faculdades tidas em maior apreço, como a estratégia, a economia e a retórica, estão sujeitas a ela. Ora, como a política utiliza as demais ciências e, por outro lado, legisla sobre o que devemos e o que não devemos fazer, a finalidade dessa ciência deve abranger as das outras, de modo que essa finalidade será o bem humano.
+ARISTÓTELES. Ética a Nicômaco. In: Pensadores. São Paulo: Nova Cultural 1991 (adaptado).
+
+Para Aristóteles, a relação entre o sumo bem e a organização da pólis pressupõe que`,
+    options: {
+      A: "o bem dos indivíduos consiste em cada um perseguir seus interesses.",
+      B: "o sumo bem é dado pela fé de que os deuses são os portadores da verdade.",
+      C: "a política é a ciência que precede todas as demais na organização da cidade.",
+      D: "a educação visa formar a consciência de cada pessoa para agir corretamente.",
+      E: "a democracia protege as atividades políticas necessárias para o bem comum."
+    },
+    correctAnswer: "C",
+    explanation: "Para Aristóteles, a política é a ciência mestra, porque organiza as demais e define o que deve ser feito na vida coletiva. O objetivo final dessa organização é o bem humano, isto é, a eudaimonia."
+  },
+  {
+    id: 50,
+    categoryId: "aristoteles",
+    categoryName: "Filosofia de Atenas: Aristóteles",
+    question: `Dado que, dos hábitos racionais com os quais captamos a verdade, alguns são sempre verdadeiros, enquanto outros admitem o falso, como a opinião e o cálculo, enquanto o conhecimento científico e a intuição são sempre verdadeiros, e dado que nenhum outro gênero de conhecimento é mais exato que o conhecimento científico, exceto a intuição, e, por outro lado, os princípios são mais conhecidos que as demonstrações, e dado que todo conhecimento científico constitui-se de maneira argumentativa, não pode haver conhecimento científico dos princípios, e dado que não pode haver nada mais verdadeiro que o conhecimento científico, exceto a intuição, a intuição deve ter por objeto os princípios.
+ARISTÓTELES. Segundos analíticos. In: REALE, G. História da filosofia antiga. São Paulo: Loyola, 1994.
+
+Os princípios, base da epistemologia aristotélica, pertencem ao domínio do(a)`,
+    options: {
+      A: "opinião, pois fazem parte da formação da pessoa.",
+      B: "cálculo, pois são demonstrados por argumentos.",
+      C: "conhecimento científico, pois admitem provas empíricas.",
+      D: "intuição, pois ela é mais exata que o conhecimento científico.",
+      E: "prática de hábitos racionais, pois com ela se capta a verdade."
+    },
+    correctAnswer: "D",
+    explanation: "Aristóteles distingue o conhecimento científico, que é demonstrativo, da intuição, que apreende diretamente os princípios. Os princípios não são demonstrados; eles são captados pela inteligência. Por isso, pertencem ao domínio da intuição."
+  },
+
+{
+  id: 51,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `Alguns pensam que Protágoras de Abdera pertence também ao grupo daqueles que aboliram o critério, uma vez que ele afirma que todas as impressões dos sentidos e todas as opiniões são verdadeiras, e que a verdade é uma coisa relativa, uma vez que tudo o que aparece a alguém ou é opinado por alguém é imediatamente real para essa pessoa.
+
+O grupo ao qual se associa o pensador mencionado no texto se caracteriza pelo objetivo de:`,
+  options: {
+    A: "alcançar o conhecimento da natureza por meio da experiência.",
+    B: "justificar a veracidade das afirmações com fundamentos universais.",
+    C: "priorizar a diversidade de entendimentos acerca das coisas.",
+    D: "preservar as regras de convivência entre os cidadãos.",
+    E: "analisar o princípio do mundo conforme a teogonia."
+  },
+  correctAnswer: "C",
+  explanation: `Protágoras defende que a verdade é relativa a cada indivíduo. Isso é típico dos sofistas, que valorizam a pluralidade de opiniões e a diversidade de interpretações.`
+},
+{
+  id: 52,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `Leia o fragmento de autoria de Heráclito:
+
+“Deus é dia e noite, inverno e verão, guerra e paz, abundância e fome. Mas toma formas variadas assim como o fogo, quando misturado com essências, toma o nome segundo o perfume de cada uma delas.”
+
+Conforme o exposto, “Deus”, no pensamento de Heráclito, significa:`,
+  options: {
+    A: "A unidade dos contrários.",
+    B: "O fundamento da religião monoteísta do período arcaico.",
+    C: "Uma abstração para refutar o logos.",
+    D: "A impossibilidade da harmonia no mundo."
+  },
+  correctAnswer: "A",
+  explanation: `Heráclito entende a realidade como unidade dos opostos. Os contrários coexistem e formam uma harmonia dinâmica.`
+},
+{
+  id: 53,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `Em 4 de julho de 2012, foi detectada uma nova partícula, que pode ser o bóson de Higgs.
+
+O que se descreve no texto possui relação com o conceito de arché, desenvolvido pelos primeiros pensadores pré-socráticos da Jônia. A arché diz respeito:`,
+  options: {
+    A: "à retórica utilizada pelos sofistas.",
+    B: "a uma explicação mitológica do cosmos.",
+    C: "à investigação de um princípio fundamental da natureza.",
+    D: "ao desenvolvimento da lógica formal.",
+    E: "à justificação ética das ações."
+  },
+  correctAnswer: "C",
+  explanation: `A arché é o princípio fundamental que explica a origem de todas as coisas. Representa a busca racional pela estrutura do cosmos.`
+},
+{
+  id: 54,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `“Entre o fim do VII século e o começo do VI a.C., o problema cosmológico é o primeiro a destacar-se claramente como objeto de pesquisa sistemática.”
+
+O texto retrata o problema cosmológico da filosofia:`,
+  options: {
+    A: "Socrática.",
+    B: "Platônica.",
+    C: "Pré-socrática.",
+    D: "Mítica.",
+    E: "Pós-socrática."
+  },
+  correctAnswer: "C",
+  explanation: `Os pré-socráticos investigavam a origem e estrutura do cosmos, caracterizando o problema cosmológico.`
+},
+{
+  id: 55,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `“Para as almas, morrer é transformar-se em água; para a água, morrer é transformar-se em terra.”
+
+Esse fragmento ilustra:`,
+  options: {
+    A: "a valorização do movimento na realidade.",
+    B: "o movimento como ilusão.",
+    C: "uma realidade única e estática.",
+    D: "uma visão religiosa da morte."
+  },
+  correctAnswer: "A",
+  explanation: `Heráclito defende o devir: tudo está em constante transformação.`
+},
+{
+  id: 56,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `Demócrito afirma que a realidade é composta por pequenas substâncias invisíveis.
+
+Esse conceito é o de:`,
+  options: {
+    A: "átomo.",
+    B: "arché.",
+    C: "essência.",
+    D: "corpus.",
+    E: "physis."
+  },
+  correctAnswer: "A",
+  explanation: `Demócrito propõe os átomos como partículas fundamentais da realidade.`
+},
+{
+  id: 57,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `Tales de Mileto afirmou que a água é a origem de tudo. Essa ideia é filosófica porque:`,
+  options: {
+    A: "questiona o fundamento das coisas.",
+    B: "apresenta uma verdade comprovada.",
+    C: "é científica.",
+    D: "é um mito.",
+    E: "é religiosa."
+  },
+  correctAnswer: "A",
+  explanation: `O valor está na pergunta racional sobre a origem, não na resposta em si.`
+},
+{
+  id: 58,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `“O mesmo é pensar e ser.”
+
+Segundo Parmênides:`,
+  options: {
+    A: "Só se pode pensar o que existe.",
+    B: "Os sentidos revelam a verdade.",
+    C: "O ser é mutável.",
+    D: "O não-ser pode ser pensado.",
+    E: "A realidade é sensível."
+  },
+  correctAnswer: "A",
+  explanation: `Para Parmênides, o pensamento só pode se referir ao ser. O não-ser não pode ser pensado.`
+},
+{
+  id: 59,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `Para Parmênides, a mudança e o movimento são:`,
+  options: {
+    A: "verdades da realidade.",
+    B: "ilusões dos sentidos.",
+    C: "revelações divinas.",
+    D: "fenômenos materiais."
+  },
+  correctAnswer: "B",
+  explanation: `A razão mostra que o ser é imutável; o movimento é apenas aparência sensível.`
+},
+{
+  id: 60,
+  categoryId: "surgimento-pre-socraticos",
+  categoryName: "Surgimento da Filosofia e Pré-socráticos",
+  question: `Segundo Demócrito, o princípio constitutivo das coisas é:`,
+  options: {
+    A: "número.",
+    B: "devir.",
+    C: "água.",
+    D: "imobilidade.",
+    E: "átomo."
+  },
+  correctAnswer: "E",
+  explanation: `Os átomos são as unidades fundamentais da matéria, que se combinam para formar tudo o que existe.`
+},
+{
+  id: 61,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `Tomemos o exemplo de Sócrates: é precisamente ele quem interpela as pessoas na rua, os jovens no ginásio, perguntando: “Tu te ocupas de ti?” (...)
+
+O fragmento evoca o seguinte princípio moral da filosofia socrática, presente em sua ação dialógica:`,
+  options: {
+    A: "Examinar a própria vida.",
+    B: "Ironizar o seu oponente.",
+    C: "Sofismar com a verdade.",
+    D: "Debater visando à aporia.",
+    E: "Desprezar a virtude alheia."
+  },
+  correctAnswer: "A",
+  explanation: `Sócrates buscava levar as pessoas ao autoconhecimento. Sua filosofia gira em torno de examinar a própria vida, refletir sobre si e buscar a verdade interior.`
+},
+{
+  id: 62,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `Com base no texto da Apologia de Sócrates, assinale a alternativa correta sobre sua condenação:`,
+  options: {
+    A: "Sócrates desprezava a vida e aceitava a autoridade dos juízes.",
+    B: "Sócrates concordou com os argumentos dos acusadores.",
+    C: "A acusação se baseava na inconsistência lógica de seu pensamento.",
+    D: "Sócrates rejeitava completamente as instituições da pólis.",
+    E: "Sócrates aceitou a morte porque ela não é necessariamente um mal."
+  },
+  correctAnswer: "E",
+  explanation: `Sócrates aceita a morte com serenidade, pois entende que não sabemos se ela é um mal. Sua postura revela fidelidade à verdade e à liberdade de pensamento.`
+},
+{
+  id: 63,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `Na tradição histórica da filosofia, é correto afirmar:`,
+  options: {
+    A: "Racionalismo e empirismo resolvem a vida religiosa.",
+    B: "Pré-socráticos estudavam apenas subjetividade.",
+    C: "O lema “conhece-te a ti mesmo” caracteriza Sócrates.",
+    D: "A filosofia moderna trata de verdades reveladas.",
+    E: "A filosofia medieval ignora o sujeito."
+  },
+  correctAnswer: "C",
+  explanation: `O pensamento socrático se baseia no autoconhecimento e no reconhecimento da própria ignorância como ponto de partida da filosofia.`
+},
+{
+  id: 64,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `Sobre a reflexão filosófica em Sócrates, assinale a alternativa correta:`,
+  options: {
+    A: "A reflexão ocorre ao interrogar os interlocutores.",
+    B: "A filosofia é posse do saber.",
+    C: "Refletir é afirmar verdades absolutas.",
+    D: "Sócrates impunha suas opiniões.",
+    E: "A sabedoria é transmitida diretamente."
+  },
+  correctAnswer: "A",
+  explanation: `Sócrates utilizava perguntas para estimular a reflexão. A filosofia é busca, não posse da verdade.`
+},
+{
+  id: 65,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `Sobre a maiêutica socrática, assinale a alternativa correta:`,
+  options: {
+    A: "Define rapidamente os conceitos.",
+    B: "É uma técnica sofista de persuasão.",
+    C: "Busca a essência por meio do questionamento.",
+    D: "É uma revelação divina.",
+  },
+  correctAnswer: "C",
+  explanation: `A maiêutica é o método de conduzir o interlocutor, por meio de perguntas, a descobrir a verdade por si mesmo.`
+},
+{
+  id: 66,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `O modo de vida socrático, descrito no texto, baseia-se na:`,
+  options: {
+    A: "Tradição mítica.",
+    B: "Prática do diálogo.",
+    C: "Relativismo.",
+    D: "Retórica.",
+    E: "Estudo da natureza."
+  },
+  correctAnswer: "B",
+  explanation: `O diálogo é o principal instrumento de Sócrates para provocar reflexão e transformação pessoal.`
+},
+{
+  id: 67,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `Sobre o pensamento grego, é correto afirmar:`,
+  options: {
+    A: "O diálogo socrático promove a humanização.",
+    B: "A filosofia ignora a crítica.",
+    C: "Filosofar é aceitar estruturas prontas.",
+    D: "O conhecimento depende dos sentidos.",
+    E: "A realidade é irrelevante."
+  },
+  correctAnswer: "A",
+  explanation: `O diálogo socrático busca desenvolver consciência crítica e ética, contribuindo para a humanização.`
+},
+{
+  id: 68,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `Sobre Sócrates e os sofistas, assinale a alternativa correta:`,
+  options: {
+    A: "Sócrates se opõe ao relativismo dos sofistas.",
+    B: "Sócrates concorda com a retórica sofista.",
+    C: "Sócrates defende a verdade relativa.",
+    D: "Sócrates valoriza a persuasão.",
+    E: "Sócrates rejeita o conhecimento."
+  },
+  correctAnswer: "A",
+  explanation: `Sócrates busca a verdade universal, enquanto os sofistas defendem o relativismo e a persuasão.`
+},
+{
+  id: 69,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `O método escolhido no diálogo platônico é:`,
+  options: {
+    A: "Maiêutica.",
+    B: "Dialética sintética.",
+    C: "Empirismo.",
+    D: "Apriorismo.",
+    E: "Dualismo."
+  },
+  correctAnswer: "A",
+  explanation: `O método interrogativo utilizado por Sócrates corresponde à maiêutica, baseada no diálogo e na construção do conhecimento.`
+},
+{
+  id: 70,
+  categoryId: "socrates",
+  categoryName: "Filosofia de Atenas: Sócrates",
+  question: `A frase “sei que nada sei” indica que:`,
+  options: {
+    A: "Reconhecer a ignorância é o início do saber.",
+    B: "O conhecimento é impossível.",
+    C: "A filosofia é inútil.",
+    D: "O saber é absoluto.",
+  },
+  correctAnswer: "A",
+  explanation: `Reconhecer a própria ignorância abre caminho para o aprendizado. A dúvida é o ponto de partida da filosofia.`
+}, {
+  id: 71,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `Em determinado momento do diálogo Hípias Menor, de Platão, Sócrates declara que encontrou dificuldade para responder à pergunta “qual o critério para reconhecermos o que é belo e o que é feio”.
+
+De acordo com Platão, a dificuldade está em que:`,
+  options: {
+    A: "os juízos de Beleza são subjetivos, sendo relativos a quem os enuncia.",
+    B: "o belo e o feio não se distinguem realmente.",
+    C: "é preciso conhecer o que é Beleza para que se possam identificar as coisas belas.",
+    D: "o critério de Beleza não é acessível aos homens, mas apenas aos deuses.",
+    E: "a Beleza é uma mera aparência."
+  },
+  correctAnswer: "C",
+  explanation: `Para Platão, não basta olhar para coisas belas no mundo sensível. É preciso conhecer a Beleza em si, que é uma Ideia perfeita, eterna e imutável. Só assim é possível julgar corretamente o que participa dessa essência.`
+},
+{
+  id: 72,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `Leia o texto a seguir:
+
+“Quando o artista [demiurgo] trabalha em sua obra, a vista dirigida para o que sempre se conserva igual a si mesmo (...) é natural que seja belo tudo o que ele realiza.”
+(PLATÃO. Timeu.)
+
+Com base no texto e nos conhecimentos sobre a filosofia de Platão, assinale a alternativa correta:`,
+  options: {
+    A: "O mundo é belo porque imita os modelos sensíveis, nos quais o demiurgo se inspira ao gerar o mundo.",
+    B: "O sensível, ou o mundo que devém, é o modelo no qual o artista se inspira para criar o que permanece.",
+    C: "O artífice do mundo, por ser bom, cria uma obra plenamente bela, que é a realidade percebida pelos sentidos.",
+    D: "O olhar do demiurgo deve se dirigir ao que permanece, pois este é o modelo a ser inserido na realidade sensível.",
+    E: "O demiurgo deve observar as perfeições no mundo sensível para poder reproduzi-las em sua obra."
+  },
+  correctAnswer: "D",
+  explanation: `No Timeu, o demiurgo organiza o mundo sensível tomando como modelo as Ideias, que são eternas e imutáveis. O sensível não é o modelo, mas a cópia. Por isso, o olhar do demiurgo se volta ao que permanece.`
+},
+{
+  id: 73,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `Leia o texto a seguir:
+
+“Os melhores dentre nós, quando escutam Homero ou qualquer poeta trágico a imitar um herói que está aflito (...) gostamos disso (...)”
+(PLATÃO. A República.)
+
+Com base no texto, nos conhecimentos sobre mimese (imitação) e sobre o pensamento de Platão, assinale a alternativa correta:`,
+  options: {
+    A: "A maneira como Homero constrói seus personagens deve ser imitada pelos demais poetas.",
+    B: "Mostrar emoções exageradas faz dos poetas excelentes formadores na cidade ideal.",
+    C: "Reagir com emoções é digno de elogio, pois contribui para a formação ética.",
+    D: "Poetas provocam emoções exageradas, não sendo bons para a formação do cidadão na cidade ideal.",
+    E: "A imitação dos poetas não está distante da essência e pode fazer parte da cidade justa."
+  },
+  correctAnswer: "D",
+  explanation: `Platão critica os poetas porque a arte imita o mundo sensível, que já é cópia das Ideias. Além disso, a poesia estimula paixões desordenadas, prejudicando a formação racional e ética do cidadão.`
+},
+{
+  id: 74,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `“Talvez (...) a verdade nada mais seja do que uma certa purificação das paixões (...)”
+(PLATÃO. Fédon.)
+
+Nessa fala de Sócrates, a “purificação” das paixões ocorre na medida em que a alma se afasta do corpo pela força da sabedoria.
+
+Com base nisso, assinale a afirmativa FALSA:`,
+  options: {
+    A: "As virtudes são a eliminação das paixões através da sabedoria.",
+    B: "Temperança, justiça e coragem resultam da purificação das paixões.",
+    C: "A sabedoria é a potência da alma pela qual as virtudes se constituem.",
+    D: "A alma atinge a verdade através da virtude da sabedoria."
+  },
+  correctAnswer: "A",
+  explanation: `Para Platão, a purificação das paixões não significa sua eliminação completa, mas sua ordenação sob o domínio da razão. A alternativa A é falsa justamente por afirmar eliminação, e não ordenação.`
+},
+{
+  id: 75,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `“Temos assim três virtudes (...) sabedoria, coragem e moderação (...) a quarta (...) é a justiça.”
+(PLATÃO. A República.)
+
+Considerando a teoria platônica das virtudes, escreva V ou F:
+
+( ) Nessa teoria, cada grupo desenvolve a(s) virtude(s) que lhe é (ou são) própria(s).
+( ) Só pode ser justa a cidade em que os grupos atuam de acordo com sua natureza.
+( ) Quando sabedoria, coragem e moderação se realizam adequadamente, temos a justiça.
+( ) Existe relação entre natureza, grupo social, virtudes e função desempenhada.
+
+A sequência correta é:`,
+  options: {
+    A: "V, V, V, V",
+    B: "V, V, F, V",
+    C: "F, F, V, F",
+    D: "F, V, F, F"
+  },
+  correctAnswer: "A",
+  explanation: `Na cidade ideal de Platão, cada grupo social exerce sua função segundo sua natureza e desenvolve a virtude correspondente. A justiça resulta da harmonia entre essas partes. Por isso, todas as afirmações são verdadeiras.`
+},
+{
+  id: 76,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `Considerando o Mito da Caverna, podemos deduzir que:`,
+  options: {
+    A: "o homem nasce bom e pode desviar-se para outro mundo.",
+    B: "não podemos confiar na razão.",
+    C: "a caverna representa aquilo que impede a consciência filosófica.",
+    D: "a razão deve submeter-se aos sentidos.",
+    E: "devemos abandonar a ideia de outro mundo."
+  },
+  correctAnswer: "C",
+  explanation: `No Mito da Caverna, a caverna simboliza o mundo das aparências e das ilusões que impedem o acesso ao conhecimento verdadeiro. Sair dela é o movimento da filosofia rumo à verdade.`
+},
+{
+  id: 77,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `Com base no texto sobre a expulsão dos poetas na República, assinale a alternativa correta:`,
+  options: {
+    A: "Apenas cientistas e construtores podem permanecer na cidade ideal.",
+    B: "A poesia está fundada no inteligível.",
+    C: "Poetas são politicamente perigosos e improdutivos.",
+    D: "Poetas imitam o sensível e se afastam das Ideias, prejudicando a cidade.",
+    E: "Poetas poderiam permanecer se louvassem os deuses."
+  },
+  correctAnswer: "D",
+  explanation: `Para Platão, a poesia imita o mundo sensível, que já é cópia das Ideias. Assim, ela se afasta ainda mais da verdade e pode corromper a formação racional dos cidadãos.`
+},
+{
+  id: 78,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `Sobre o Mito da Caverna e a dialética, assinale a alternativa correta:`,
+  options: {
+    A: "A dialética é conhecimento imediato dos objetos sensíveis.",
+    B: "O Bem é um objeto sensível.",
+    C: "As Formas são suposições teóricas.",
+    D: "A dialética não é o último estágio do conhecimento.",
+    E: "A dialética permite alcançar o conhecimento do Bem por meio de um processo difícil."
+  },
+  correctAnswer: "E",
+  explanation: `A dialética é, em Platão, o método mais elevado do conhecimento. Ela conduz a alma, por um processo exigente, até a contemplação do Bem, que é o princípio supremo da realidade.`
+},
+{
+  id: 79,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `Sobre o pensamento de Platão:`,
+  options: {
+    A: "Enfatiza as ideias no mundo sensível.",
+    B: "Defende a existência do mundo ideal como base da ciência.",
+    C: "Prioriza a verdade do mundo concreto.",
+    D: "Valoriza os sentidos como condição da verdade.",
+    E: "Foca apenas na realidade sensível."
+  },
+  correctAnswer: "B",
+  explanation: `Platão sustenta que o conhecimento verdadeiro depende do mundo inteligível, onde estão as Ideias. O mundo sensível é mutável e imperfeito, por isso não pode fundamentar a ciência.`
+},
+{
+  id: 80,
+  categoryId: "platao",
+  categoryName: "Filosofia de Atenas: Platão",
+  question: `“No diálogo Mênon (...) temos em nós um conhecimento inato (...) a filosofia é recordar esse conhecimento.”
+
+Nesse trecho, o autor descreve:`,
+  options: {
+    A: "a teoria das ideias.",
+    B: "a doutrina da reminiscência.",
+    C: "a ironia socrática.",
+    D: "a dialética platônica."
+  },
+  correctAnswer: "B",
+  explanation: `No Mênon, Platão apresenta a doutrina da reminiscência: aprender é recordar aquilo que a alma já conhecia antes de encarnar. O conhecimento, portanto, é rememoração.`
+},
+{
+  id: 81,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `A quem não basta pouco, nada basta.
+
+Remanescente do período helenístico, a máxima apresentada valoriza a seguinte virtude:`,
+  options: {
+    A: "Esperança, tida como confiança no porvir.",
+    B: "Justiça, interpretada como retidão de caráter.",
+    C: "Temperança, marcada pelo domínio da vontade.",
+    D: "Coragem, definida como fortitude na dificuldade.",
+    E: "Prudência, caracterizada pelo correto uso da razão."
+  },
+  correctAnswer: "C",
+  explanation: `A frase mostra que o desejo sem limite produz insatisfação constante. A virtude valorizada é a temperança, isto é, a capacidade de moderar os desejos e viver com equilíbrio. Nas filosofias helenísticas, a felicidade depende justamente dessa medida.`
+},
+{
+  id: 82,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `“Jamais, a respeito de coisa alguma, digas: ‘Eu a perdi’, mas sim: ‘eu a restituí’ (...)”
+(Epicteto, Enchirídion)
+
+A característica do estoicismo presente nessa citação do filósofo grego Epicteto é:`,
+  options: {
+    A: "explicar o mundo com números.",
+    B: "identificar a felicidade com o prazer.",
+    C: "aceitar os sofrimentos com serenidade.",
+    D: "questionar o saber científico com veemência.",
+    E: "considerar as convenções sociais com desprezo."
+  },
+  correctAnswer: "C",
+  explanation: `Epicteto expressa um princípio central do estoicismo: aceitar com serenidade aquilo que não depende de nós. A perda, a morte e os acontecimentos externos devem ser enfrentados com equilíbrio interior.`
+},
+{
+  id: 83,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `Pirro afirmava que nada é nobre nem vergonhoso, justo ou injusto (...) nada existe do ponto de vista da verdade (...)
+(Diógenes Laércio)
+
+O ceticismo, conforme sugerido no texto, caracteriza-se por:`,
+  options: {
+    A: "desprezar quaisquer convenções e obrigações da sociedade.",
+    B: "atingir o verdadeiro prazer como o princípio e o fim da vida feliz.",
+    C: "defender a indiferença e a impossibilidade de obter alguma certeza.",
+    D: "aceitar o determinismo e ocupar-se com a esperança transcendente.",
+    E: "agir de forma virtuosa e sábia a fim de enaltecer o homem bom e belo."
+  },
+  correctAnswer: "C",
+  explanation: `O ceticismo de Pirro sustenta que não é possível alcançar certeza segura sobre a verdade. Diante disso, propõe-se a suspensão do juízo e uma atitude de indiferença que favorece a tranquilidade.`
+},
+{
+  id: 84,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `“Alguns dos desejos são naturais e necessários; outros, naturais e não necessários (...)”
+(Epicuro de Samos)
+
+No fragmento da obra filosófica de Epicuro, o homem tem como fim:`,
+  options: {
+    A: "alcançar o prazer moderado e a felicidade.",
+    B: "valorizar os deveres e as obrigações sociais.",
+    C: "aceitar o sofrimento e o rigorismo da vida com resignação.",
+    D: "refletir sobre os valores e as normas dadas pela divindade.",
+    E: "defender a indiferença e a impossibilidade de se atingir o saber."
+  },
+  correctAnswer: "A",
+  explanation: `Epicuro defende que a felicidade depende de saber distinguir os desejos e buscar apenas aqueles que conduzem ao prazer equilibrado e à ausência de dor. O fim da vida é a felicidade serena, não o excesso.`
+},
+{
+  id: 85,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `A economia verde contém princípios para o consumo ético de produtos (...) O Estado, entretanto, não impõe, até o presente momento, sanções àqueles cidadãos que não seguem esses princípios.
+
+Considere as afirmações:
+
+I. Esses princípios são juízos de fato.
+II. Esses princípios são, atualmente, uma questão de moralidade, mas não de legalidade.
+III. A ética epicurista, a exemplo da economia verde, propõe uma vida mais moderada.
+
+Está(ão) correta(s):`,
+  options: {
+    A: "apenas I.",
+    B: "apenas I e II.",
+    C: "apenas III.",
+    D: "apenas II e III.",
+    E: "I, II e III."
+  },
+  correctAnswer: "D",
+  explanation: `A afirmação I é falsa porque esses princípios são juízos de valor, não de fato. A II é correta, pois se trata de uma obrigação moral, e não legal. A III também é correta, já que o epicurismo valoriza uma vida moderada e sem excessos.`
+},
+{
+  id: 86,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `Julgue as afirmações sobre a filosofia helenista.
+
+I. É o último período da filosofia antiga (...)
+II. É um período constituído por grandes sistemas e doutrinas (...)
+III. Surgem nesse período a filosofia estoica, o epicurismo, o ceticismo e o neoplatonismo.
+
+Estão corretas as afirmativas:`,
+  options: {
+    A: "Todas elas.",
+    B: "Apenas I e II.",
+    C: "Apenas III.",
+    D: "Apenas II e III.",
+    E: "Apenas I."
+  },
+  correctAnswer: "A",
+  explanation: `As três afirmações estão corretas. O período helenístico marca a crise da pólis e a formação da cosmópolis, enfatiza a filosofia prática e reúne escolas como estoicismo, epicurismo, ceticismo e, mais tarde, neoplatonismo.`
+},
+{
+  id: 87,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `Sobre o ceticismo, é CORRETO afirmar que:`,
+  options: {
+    A: "os céticos buscaram uma mediação entre “o ser” e o “poder-ser”.",
+    B: "o ceticismo relativo tem no subjetivismo e no relativismo doutrinas manifestamente apoiadas em seu princípio maior: toda interatividade possível.",
+    C: "Protágoras afirmou que o homem só entende a natureza porque o conhecimento emana dela.",
+    D: "Górgias e Pirro são apontados como possíveis fundadores do ceticismo absoluto."
+  },
+  correctAnswer: "D",
+  explanation: `Górgias e Pirro são associados ao desenvolvimento do ceticismo. Górgias já apresenta uma radical crítica ao conhecimento, e Pirro sistematiza a suspensão do juízo como atitude filosófica.`
+},
+{
+  id: 88,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `Em meados do século IV a.C., Alexandre Magno assumiu o trono da Macedônia (...) Pirro defendia os fundamentos do ceticismo. Ele fundou uma escola filosófica que pregava a ideia de que:`,
+  options: {
+    A: "seria impossível conhecer a verdade.",
+    B: "seria inadmissível permanecer na mera opinião.",
+    C: "os princípios morais devem ser inferidos da natureza.",
+    D: "os princípios morais devem basear-se na busca pelo prazer."
+  },
+  correctAnswer: "A",
+  explanation: `Pirro defendia a impossibilidade de atingir a verdade com certeza. A atitude adequada, portanto, é suspender o juízo e evitar afirmações dogmáticas.`
+},
+{
+  id: 89,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `Assinale a sentença do filósofo grego Epicuro cujo significado é o mais próximo da letra da canção “Filosofia”, composta em 1933 por Noel Rosa, em parceria com André Filho.`,
+  options: {
+    A: "É verdadeiro tanto o que vemos com os olhos como aquilo que apreendemos pela intuição mental.",
+    B: "Para sermos felizes, o essencial é o que se passa em nosso interior, pois é deste que nós somos donos.",
+    C: "Para se explicar os fenômenos naturais, não se deve recorrer nunca à divindade.",
+    D: "As leis existem para os sábios, não para impedir que cometam injustiças, mas para impedir que as sofram.",
+    E: "A natureza é a mesma para todos os seres."
+  },
+  correctAnswer: "B",
+  explanation: `Epicuro valoriza a felicidade interior e a tranquilidade da alma. O essencial não está nas condições externas, mas na maneira como o indivíduo administra seus desejos e sua vida interior.`
+},
+{
+  id: 90,
+  categoryId: "escolas-helenicas",
+  categoryName: "Escolas Helênicas",
+  question: `Sobre as escolas éticas do período helenístico, associe:
+
+I. epicurismo
+II. estoicismo
+III. ceticismo
+IV. ecletismo
+
+A – É uma moral hedonista (...)
+B – Visa sempre um fim último ético-ascético (...)
+C – Se nada é verdadeiro, tudo vale unicamente.
+D – A paixão é sempre substancialmente má (...)
+
+Alternativas:`,
+  options: {
+    A: "I – A, II – B, III – C, IV – D",
+    B: "I – A, II – B, III – D, IV – C",
+    C: "I – A, II – D, III – C, IV – B",
+    D: "I – A, II – D, III – B, IV – C",
+    E: "I – D, II – A, III – B, IV – C"
+  },
+  correctAnswer: "C",
+  explanation: `O epicurismo corresponde à moral hedonista; o estoicismo entende a paixão como perturbação da alma; o ceticismo se relaciona à ausência de verdade absoluta; e o ecletismo busca um caminho ético sem se prender rigidamente a um único sistema.`
+}, 
+
+{
+  id: 91,
+  categoryId: "juntando-filosofia",
+  categoryName: "Tudo junto e misturado na filosofia",
+  question: `Em diferentes momentos da filosofia grega, o conhecimento foi associado a finalidades distintas. Para alguns pensadores, conhecer significava investigar os princípios da realidade e compreender a estrutura do mundo. Para outros, significava voltar-se para o próprio homem, examinando sua vida, suas ações e seus valores. Em contextos posteriores, diante da instabilidade política e da perda de referências coletivas, o conhecimento filosófico passou a ser valorizado como um meio de alcançar equilíbrio interior, reduzindo o sofrimento humano.
+
+Nesse percurso, observa-se que a filosofia não abandonou a razão, mas ampliou suas funções: ora buscando a verdade, ora orientando a vida.
+
+Considerando esse panorama da filosofia grega, a alternativa que melhor expressa a relação entre as ideias de Sócrates, Platão, Aristóteles e as escolas helenísticas é:`,
+  options: {
+    A: "A filosofia grega evolui de uma fase racional para uma fase irracional, em que as escolas helenísticas abandonam completamente a busca pela verdade.",
+    B: "Sócrates, Platão e Aristóteles concentram-se exclusivamente na explicação da natureza, enquanto as escolas helenísticas introduzem pela primeira vez a reflexão ética.",
+    C: "A filosofia socrática, platônica e aristotélica estabelece a centralidade da razão e da ética, enquanto as escolas helenísticas aprofundam essa herança ao direcioná-la para a vida prática e a busca da serenidade.",
+    D: "As escolas helenísticas rompem com toda a tradição anterior, rejeitando a razão e substituindo-a por explicações baseadas na religião.",
+    E: "Platão e Aristóteles defendem que a felicidade depende exclusivamente do prazer, ideia posteriormente desenvolvida pelo estoicismo e pelo ceticismo."
+  },
+  correctAnswer: "C",
+  explanation: `A questão exige que se compreenda a continuidade e a transformação da filosofia grega ao longo do tempo. Sócrates desloca o foco para o ser humano, para a ética e para o exame da própria vida. Platão aprofunda essa reflexão ao desenvolver uma teoria do conhecimento e da realidade, além de pensar a justiça e a organização da vida coletiva. Aristóteles sistematiza o saber, valoriza a experiência e propõe uma ética baseada no equilíbrio e na virtude. As escolas helenísticas não rompem com essa tradição, mas a transformam diante de um novo contexto histórico. Com a crise da pólis, a filosofia passa a enfatizar ainda mais sua dimensão prática. Correntes como estoicismo, epicurismo e ceticismo utilizam a razão para orientar a vida, reduzir o sofrimento e alcançar a serenidade. Há, portanto, continuidade na centralidade da razão e da ética, com mudança de foco em direção à vida individual e ao equilíbrio interior.`
+}
 ];
